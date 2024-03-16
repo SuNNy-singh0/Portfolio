@@ -1,0 +1,419 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 243, 243);
+  width: 100%;
+  
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.main h1 {
+  margin-left: 20px;
+  color: darkblue;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.item a {
+  padding: 2px 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.item a:hover {
+  font-size: 1.3rem;
+  border-bottom: 3px solid blueviolet;
+  color: gray;
+}
+
+.btn1 {
+  margin-right: 20px;
+  color: black;
+  background-color: rgb(177, 223, 96);
+  padding: 7px 15px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border-radius: 15%;
+  cursor: pointer;
+  margin: 2vw;
+}
+
+.btn1:hover {
+  background-color: gainsboro;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("/public/images/psychedelic-paper-shapes-with-copy-space.jpg");
+  background-size: cover;
+}
+
+.Right {
+  flex-basis: 30%;
+  display: flex;
+}
+
+.Right img {
+  width: 100%;
+  margin: auto;
+  height: 31vw;
+}
+
+.left {
+  color: blueviolet;
+  justify-content: center;
+  margin-left: 15%;
+  padding: 10px 10px;
+  width: 30%;
+  border-radius: 2%;
+}
+
+.left h2,
+h3 {
+  font-size: 1.7rem;
+}
+
+.left h1 {
+  font-size: 3rem;
+  color: cadetblue;
+  font-weight: bold;
+}
+
+.left p {
+  font-size: 1.3rem;
+  color: darkblue;
+  font-weight: 400;
+}
+
+.icon {
+  display: flex;
+  text-decoration: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.icon a img {
+  padding: 5px 5px;
+  background-color: white;
+  width: 50%;
+  border-radius: 40%;
+  margin-top: 2vw;
+}
+
+.icon a img:hover {
+  width: 55%;
+}
+
+.head {
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(154, 26, 129);
+  text-decoration: underline;
+  margin: 3vw auto;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.left1 {
+  flex-basis: 25%;
+  margin-left: 20px;
+}
+
+.right1 {
+  text-align: left;
+  flex-basis: 71%;
+  padding: 10px 40px;
+}
+
+.right1 p {
+  line-height: 50px;
+  color: darkblue;
+  font-size: 1.4rem;
+  margin-top: 2vw;
+
+}
+
+.left1 {
+  background-image: url("/public/images/v708-aum-24-b-diwali.jpg");
+  width: 100%;
+  padding: 20px 20px;
+
+
+}
+
+.left1 img {
+  width: 109%;
+  height: 66vh;
+  border-radius: 5%;
+  border: 1px solid gray;
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.pro1 {
+  border: 2px solid black;
+  padding: 7px 12px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* width: 30%;
+  height: 42vh; */
+  color: black;
+  border-radius: 5%;
+  background-image: url("/public/images/mi.jpg");
+  background-size: cover;
+  opacity: 0.8;
+  flex-wrap: wrap;
+  width: 31vw;
+}
+
+.pro1 h3 {
+  color: darkblue;
+  font-size: 1.4rem;
+  font-family: sans-serif;
+}
+
+.pro1 h4 {
+  color: blueviolet;
+  font-size: 1.3rem;
+  padding: 1vw;
+}
+
+.pro1 p {
+  color: black;
+  font-size: 1.1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1vw;
+}
+
+#maincontainer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.line {
+  border: 2px solid gainsboro;
+  padding: 10px 10px;
+  border-radius: 10%;
+  box-shadow: 2px 2px 2px gainsboro;
+  margin-top: 10px;
+  color: black;
+  font-weight: 400;
+}
+
+.btn2 {
+  margin-right: 20px;
+  color: black;
+  background-color: rgb(177, 223, 96);
+  padding: 7px 15px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border-radius: 15%;
+  cursor: pointer;
+  margin: 3vw 14vw;
+  /* margin-left: 14vw; */
+}
+.btn2 a{
+  text-decoration: none;
+  color: black;
+}
+.btn3 {
+  padding: 7px 14px;
+  background-color: rgb(28, 168, 255);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: 2px solid gainsboro;
+  border-radius: 15%;
+  cursor: pointer;
+}
+
+#expert {
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.left2 {
+  flex-basis: 50%;
+  height: 35vh;
+  justify-content: center;
+  text-align: center;
+  background-image: url("/public/images/4025565.jpg");
+  background-size: cover;
+}
+
+.left2 h2 {
+  font-size: 1.5rem;
+  color: rgb(28, 133, 17);
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
+.left2 p {
+  font-size: 1.4rem;
+  color: dimgray;
+}
+
+.right2 {
+  text-align: center;
+  background-image: url("/public/images/x.jpg");
+  background-size: cover;
+  width: 50%;
+}
+
+.right2 p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.skill {
+  border: 1px solid rgb(12, 128, 14);
+  margin: 10px 10px;
+  padding: 7px 10px;
+  background-color: rgb(12, 128, 14);
+  font-size: 1vw;
+  color: white;
+  font-weight: 500;
+  border-radius: 35%;
+
+}
+
+.java {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot1 span {
+  color: yellow;
+}
+
+.foot1 {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  flex-basis: 50%;
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 720px) {
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .project {
+    flex-direction: column;
+    width: 109%;
+  }
+
+  .Right {
+
+    display: none;
+    flex-basis: 0;
+  }
+
+  .left {
+
+    justify-content: center;
+    margin-left: 6%;
+    width: 70%;
+    border-radius: 2%;
+  }
+  .left1{
+    padding: 20px 11px;
+  }
+  .content {
+    flex-direction: column;
+  }
+
+  .pro1 {
+    width: 75%;
+    margin: auto;
+    margin-top: 4vw;
+    margin-left: 11vw;
+  }
+
+  .left1 img {
+    width: 98%;
+    height: 57vh;
+  }
+
+  .foot1 p {
+    
+    font-size: 14px;
+  }
+
+  .java {
+    flex-direction: column;
+  }
+
+  .right2 {
+    background-image: none;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .skill {
+    font-size: 9px;
+  }
+
+  .icon a img {
+    width: 70%;
+  }
+
+  .left2 {
+    background-size: cover;
+    background-position-y: 99px;
+    background-repeat: no-repeat;
+  }
+
+  .main {
+    display: block;
+  }
+  .main h1{
+    font-size: 14px;
+  }
+  .home {
+    display: none;
+  }
+  .btn2{
+    margin-top:2vw;
+  }
+  .left1 {
+    margin-left: 0;
+  }
+
+}
